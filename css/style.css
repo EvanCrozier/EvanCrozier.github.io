@@ -157,10 +157,9 @@ ul{
     color:#38b6ff;
     width: 3.12em;
     line-height: 3.12em;
-    font-size: 1.25em;
     text-align: center;
     position: absolute;
-    top: 0.5em;
+    top: 1em;
     left: 50%;
     margin-left: -1.5em;
     background-color: #ddd;
@@ -177,7 +176,7 @@ ul{
 .timeline-panel{
     width: 90%;
     float: right;
-    margin-right: 3em;
+    margin-right: 2.4em;
     border: 1px solid #38b6ff;
     border-radius: 0.40em;
     padding: 1.25em 1.563em;
@@ -190,7 +189,7 @@ ul{
 
 .timeline-panel-container-inverted .timeline-panel{
     float: left;
-    margin-left: 3em;
+    margin-left: 2.6em;
 }
 .timeline-panel::after{
     position: absolute;
@@ -203,6 +202,35 @@ ul{
     border-bottom: 0.85em solid transparent;
     content: " ";
 }
+
+/* partie mobile */ 
+@media screen and ( max-width:420px ){  
+
+    .timeline-panel{
+        width: 90%;
+        float: right;
+        margin-right: 2.4em;
+        border: 1px solid #38b6ff;
+        border-radius: 0.40em;
+        padding: 1.25em 1.563em 1.25em 0.5em;
+        position: relative;
+        box-shadow: 0 1px 0.30em #38b6ff;
+        background: #303642;
+        color: #fff;
+        
+    }
+    
+    .timeline-panel-container-inverted .timeline-panel{
+        float: left;
+        margin-left: 2.5em;
+        padding: 1.25em 1.25em 1.25em 0.5em;
+    
+    }
+}
+/* end mobile */
+
+
+
 .timeline-panel-container-inverted .timeline-panel::after{
     border-left-width: 0;
     border-right-width: 0.85em;
