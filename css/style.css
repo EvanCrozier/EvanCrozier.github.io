@@ -95,7 +95,7 @@ ul{
 #aboutMe {
     background-color: #303642;
 }
-#aboutMe .heading h2{
+#aboutMe .heading {
     color: #fff;
     text-align: center;
 }
