@@ -114,7 +114,12 @@ ul{
     width: 50%;
     height: 85%;
 }
-
+@media (min-width: 768px) {
+    .mono {
+            width: 10%;     
+        }      
+}
+    
 .littleImg {
     width: 40%;
     height: 80%;
